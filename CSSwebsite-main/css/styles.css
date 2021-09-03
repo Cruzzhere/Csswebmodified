@@ -1,0 +1,307 @@
+body {
+  background-color: #EEEEEE;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  scroll-behavior: smooth;
+  color: #393E46;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Allison';
+  font-size: 110px;
+  margin: 0;
+  padding: 10px;
+  /*border-radius: 15px;
+  border:solid;
+  border-style:solid;
+  border-color: white;*/
+}
+
+p {
+  font-family: 'Fauna One';
+  font-size: 1.7rem;
+  /*background-color: #EEEEEE;*/
+  color: #393E46;
+  padding: 5px;
+  border-radius: 15px;
+}
+h2{
+  font-family: 'Sail', cursive;
+  color:  #11999E;
+  font-size: 3rem;
+}
+hr{
+  border:dotted #99D8D0 10px;
+  border-top: 16px;
+  width: 15%;
+
+}
+
+ a:hover, a:active {
+    color: #00A19D;
+    font-size: 117%;
+  }
+
+
+/*div :hover{
+  background-color:#0CECDD;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}*/
+.Top-Container {
+  background-color: #E8F6EF;
+  margin: 0;
+  height: 750px;
+  width: 100%;
+  padding-top: 100px;
+  display: inline-block;
+  /*border-radius: 15px;
+  border:solid;
+  border-color: black;
+*/
+}
+
+.Middle-Container{
+  background-color: #E8F6EF;
+  line-height: 3rem;
+  /*background-image: url(colorful-brush-strokes.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:1320px;
+  width: 100%;
+  position: absolute;
+  top: 1330px;
+  border-radius: 20px;
+  border:solid;
+  border-color: orange;
+  margin-top: 0;*/
+
+}
+/*.RED
+{
+    height: 200px;
+  width: 200px;
+  position: relative;
+  left:400px;
+  background-color: red;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  top:400px;
+  }
+.BLUE
+  {
+    height: 200px;
+    width: 200px;
+
+    background-color: blue;
+    border-top-left-radius: 15px;
+
+    }
+.GREEN
+{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom:400px;
+  left:200px;
+  background-color: green;
+  position: absolute;
+  top:200px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  }*/
+.Webclass {
+  font-family: 'Allison';
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.Upper-middle {
+  height: 30%;
+  width: 75%;
+  /*border:solid;
+  border-color: black;
+  border-width: medium;*/
+  position: relative;
+  left: 0;
+  display: inline-block;
+}
+
+.cloud-l {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.cloud-r {
+  /*border: solid;
+  border-color: black;*/
+  position: absolute;
+  top: -70%;
+  right: 20%;
+}
+
+.profileimg {
+  margin-top: 50px;
+  height: 20%;
+  display: inline-block;
+  }
+.skill-row{
+  display: block;
+  text-align: left;
+  margin: 150px 100px auto 100px;
+  /*border: solid;
+  border-color: black;*/
+  height: 400px;
+  margin-bottom: 15px;
+}
+.skillcode{
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  width:20%;
+  border-radius: 50%;
+}
+.skillexcel
+{
+  float: right;
+  padding-left:30px;
+  width: 55%;
+}
+
+.skillset{
+  font-family: 'Sacramento', cursive;
+  margin: auto;
+  font-size: 3rem;
+}
+.skill-row1
+{
+  width: 31%;
+  /*border:solid;
+  border-color: black;*/
+  position: absolute;
+  top: 270%;
+  left:65%;
+  display: block;
+  text-align: right;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  }
+.contact-me{
+  margin-top: 20px;
+  background-color: #B8DFD8;
+  padding: 1rem;
+}
+
+.btn{
+  color:  #11999E;
+  font-weight: 300;
+}
+.year2020{
+ text-decoration: underline;
+ font-style:'Allison';
+}
+.skills{
+  margin-top: 50px;
+  margin-bottom: -1%;
+}
+
+
+.cloud-l {
+  /*border: solid;*/
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+
+.cloud-r {
+  /*border: solid;*/
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.profileimg {
+  margin-top: 50px;
+  height: 350px;
+  display: inline-block;
+  }
+.skill-row{
+  display: block;
+  text-align: left;
+  margin: 150px 100px auto 100px;
+  /*border: solid;
+  border-color: black;*/
+  height: 400px;
+  margin-bottom: 15px;
+}
+.skillcode{
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  width:20%;
+  border-radius: 50%;
+}
+.skillexcel
+{
+  float: right;
+  padding-left:30px;
+  width: 50%;
+}
+
+.skillset{
+  font-family: 'Sacramento', cursive;
+  margin: auto;
+  font-size: 3rem;
+}
+.skill-row1
+{
+  width: 33%;
+  /*border:solid;
+  border-color: black;*/
+  position: absolute;
+  top:2200px;
+  left:800px;
+  display: block;
+  text-align: right;
+  /*margin-bottom: 100px;*/
+  }
+.contact-me{
+  margin-top: 20px;
+  background-color: #B8DFD8;
+  padding: 1rem;
+}
+
+.btn{
+  color:  #11999E;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+.year2020{
+ text-decoration: underline;
+ font-style:'Allison';
+}
+.skills{
+  margin-top: 50px;
+}
+.nearbtn{
+  width:1.5%;
+}
+.nearbtn:hover{
+  width: 2%;
+}
+.nearbtn1{
+  width: 1.20%
+}
+.nearbtn1:hover{
+  width: 2%;
+}
+.nearbtn2{
+  width:1.35%;
+}
+.nearbtn2:hover{
+  width: 2.3%;
+}
